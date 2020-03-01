@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bce4e9e5-3e99-4bf2-ad92-1ffc9c756a99" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XbytVJuZotfU0FOIB1tLjmgNan" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.game_console">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\DEV\src\python\Python38-amd64\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game_console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_console.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game_gui" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.game_gui" />
+      <item itemvalue="Python.game_console" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.game_console" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bce4e9e5-3e99-4bf2-ad92-1ffc9c756a99" name="Default Changelist" comment="" />
+      <created>1581329303514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581329303514</updated>
+      <workItem from="1581329305406" duration="5734000" />
+      <workItem from="1581362825737" duration="4331000" />
+      <workItem from="1581387611276" duration="307000" />
+      <workItem from="1581390350017" duration="644000" />
+      <workItem from="1581392918760" duration="620000" />
+      <workItem from="1581429352513" duration="273000" />
+      <workItem from="1581429924604" duration="81000" />
+      <workItem from="1581439677090" duration="1160000" />
+      <workItem from="1581449414641" duration="1914000" />
+      <workItem from="1581604137484" duration="794000" />
+      <workItem from="1581609368159" duration="6259000" />
+      <workItem from="1581686444685" duration="1989000" />
+      <workItem from="1581801899255" duration="281000" />
+      <workItem from="1581858686249" duration="818000" />
+      <workItem from="1581880328561" duration="2154000" />
+      <workItem from="1581913237638" duration="309000" />
+      <workItem from="1581917663006" duration="8884000" />
+      <workItem from="1581989964057" duration="1676000" />
+      <workItem from="1582065670017" duration="9000" />
+      <workItem from="1582217104565" duration="2476000" />
+      <workItem from="1583071678034" duration="543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="134" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582219539867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582219539867" />
+    <state x="666" y="174" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581931533820" />
+    <state x="794" y="223" key="FileChooserDialogImpl" timestamp="1582219537501">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="794" y="223" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582219537501" />
+    <state x="992" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581931529281" />
+    <state width="1166" height="279" key="GridCell.Tab.0.bottom" timestamp="1583072220846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582219658444" />
+    <state width="1166" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583072220846" />
+    <state width="1166" height="279" key="GridCell.Tab.0.center" timestamp="1583072220846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582219658443" />
+    <state width="1166" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583072220846" />
+    <state width="1166" height="279" key="GridCell.Tab.0.left" timestamp="1583072220846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582219658443" />
+    <state width="1166" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583072220846" />
+    <state width="1166" height="279" key="GridCell.Tab.0.right" timestamp="1583072220846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582219658444" />
+    <state width="1166" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583072220846" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582219658438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582219658438" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581368363708" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582219658438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582219658438" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581368363708" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582219658438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582219658438" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581368363708" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582219658438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582219658438" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581368363708" />
+    <state x="346" y="68" key="SettingsEditor" timestamp="1583071686167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582217239267" />
+    <state x="346" y="68" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583071686167" />
+    <state x="701" y="500" key="com.intellij.ide.util.TipDialog" timestamp="1583071678093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="525" y="272" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582217106767" />
+    <state x="701" y="500" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583071678093" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$game.coverage" NAME="game Coverage Results" MODIFIED="1581931134713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$game_gui.coverage" NAME="game_gui Coverage Results" MODIFIED="1582219625521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$game_console.coverage" NAME="game_console Coverage Results" MODIFIED="1583071714834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

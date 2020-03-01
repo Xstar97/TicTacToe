@@ -1,0 +1,8 @@
+{
+  "title": "TicTacToe",
+  "@title": {
+    "description": "Name of the app",
+    "type": "text",
+    "placeholders": {}
+  }
+}
