@@ -2,8 +2,6 @@
 
 A new Flutter TicTacToe game!
 
-https://roshambogame.web.app/#/
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
