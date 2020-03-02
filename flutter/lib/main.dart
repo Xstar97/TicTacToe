@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:roshambo/GamerBloc.dart';
-import 'package:roshambo/generated/l10n.dart';
+import 'generated/l10n.dart';
 
 Future<void> main() async {
   runApp(MaterialApp(

@@ -1,4 +1,4 @@
-name: roshambo
+name: TicTacToe
 description: A TicTacToe Game made with love in Dart.
 
 # The following defines the version and build number for your application.
@@ -55,8 +55,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
