@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "60413189063",
+    "firebase_url": "https://games-3c201.firebaseio.com",
+    "project_id": "games-3c201",
+    "storage_bucket": "games-3c201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60413189063:android:1a12bd40cd84fbaf4117e2",
+        "android_client_info": {
+          "package_name": "com.xstar97.TicTacToe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60413189063-pr24gavrmlef0ngonlrhdqtejfstf7c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYR4JdtgenNQ7KUyQUDeJJkPCTSlTrL4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60413189063-pr24gavrmlef0ngonlrhdqtejfstf7c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
