@@ -37,6 +37,24 @@ class S {
       args: [],
     );
   }
+
+  String leaderBoardPlayer(dynamic name, dynamic count) {
+    return Intl.message(
+      'player $name: $count',
+      name: 'leaderBoardPlayer',
+      desc: 'current player\'s winning count',
+      args: [name, count],
+    );
+  }
+
+  String leaderBoardPlayerTie(dynamic count) {
+    return Intl.message(
+      'tie: $count',
+      name: 'leaderBoardPlayerTie',
+      desc: 'tie count',
+      args: [count],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

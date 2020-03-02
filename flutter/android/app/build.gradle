@@ -32,7 +32,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    //ndkVersion "20.0.5594570" // NDK r19c
+    ndkVersion "20.1.5948944"
     compileSdkVersion 29
 
     sourceSets {

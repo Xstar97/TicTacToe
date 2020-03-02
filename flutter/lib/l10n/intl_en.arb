@@ -4,5 +4,22 @@
     "description": "Name of the app",
     "type": "text",
     "placeholders": {}
+  },
+  "leaderBoardPlayer": "player {name}: {count}",
+  "@leaderBoardPlayer": {
+    "description": "current player's winning count",
+    "type": "text",
+    "placeholders": {
+      "name": {},
+      "count": {}
+    }
+  },
+  "leaderBoardPlayerTie": "tie: {count}",
+  "@leaderBoardPlayerTie": {
+    "description": "tie count",
+    "type": "text",
+    "placeholders": {
+      "count": {}
+    }
   }
 }

@@ -21,15 +21,46 @@ class GamePage extends StatefulWidget {
 
 const initMoveList = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var moveList = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
-var playerValue1 = "X";
-var playerValue2 = "O";
+var currentMoveCount = 0;
+var maxMoveCount = 9;
+var playerNameOne = "X";
+var playerNameTwo = "O";
 
-var currentPlayer = playerValue1;
+var currentPlayer = playerNameOne;
+
+var leaderBoardCountPlayerOne = 0;
+var leaderBoardCountPlayerTwo = 0;
+var leaderBoardCountPlayerTie = 0;
 
 class _GamePageState extends State<GamePage> {
 
   bool validateWin(int index1, int index2, int index3, playerChar){
     return moveList[index1-1]+moveList[index2-1]+moveList[index3-1] == playerChar+playerChar+playerChar;
+  }
+  int validateWinner(BuildContext context, String playerChar){
+    var winner = 0;
+    if (validateWin(1, 2, 3, playerChar) ||
+        validateWin(4, 5, 6, playerChar) ||
+        validateWin(7, 8, 9, playerChar) ||
+        validateWin(1, 4, 7, playerChar) ||
+        validateWin(2, 5, 8, playerChar) ||
+        validateWin(3, 6, 9, playerChar) ||
+        validateWin(1, 5, 9, playerChar) ||
+        validateWin(3, 5, 7, playerChar))
+    {
+      if(playerChar == "X"){
+        leaderBoardCountPlayerOne +=1;
+      }else{
+        leaderBoardCountPlayerTwo +=1;
+      }
+      dialogWinningMessage(context, playerChar);
+    }else if(currentMoveCount == maxMoveCount){
+      leaderBoardCountPlayerTie += 1;
+      dialogGameOverMessageNoMoreMoves();
+    } else{
+      winner = 1;
+    }
+    return winner;
   }
   void dialogWinningMessage(BuildContext context, String playerChar){
     showDialog<void>(
@@ -71,23 +102,32 @@ class _GamePageState extends State<GamePage> {
       },
     );
   }
-  void validateWinner(BuildContext context, String playerChar){
-    if (validateWin(1, 2, 3, playerChar) ||
-        validateWin(4, 5, 6, playerChar) ||
-        validateWin(7, 8, 9, playerChar) ||
-        validateWin(1, 4, 7, playerChar) ||
-        validateWin(2, 5, 8, playerChar) ||
-        validateWin(3, 6, 9, playerChar) ||
-        validateWin(1, 5, 9, playerChar) ||
-        validateWin(3, 5, 7, playerChar))
-    {
-      dialogWinningMessage(context, playerChar);
-    }
+  void dialogGameOverMessageNoMoreMoves(){
+    showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap button!
+      builder: (BuildContext alert) {
+        return AlertDialog(
+          title: Center(child: Text('Game Over!'),),
+          content: Text('Game ended in a tie!',),
+          actions: <Widget>[
+            FlatButton(
+              child: Text('restart game?'),
+              onPressed: () {
+                restartGame();
+                Navigator.of(alert).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
   void restartGame(){
     setState(() {
       moveList.replaceRange(0, moveList.length, initMoveList);
-      currentPlayer = playerValue1;
+      currentPlayer = playerNameOne;
+      currentMoveCount = 0;
     });
   }
 
@@ -98,10 +138,12 @@ class _GamePageState extends State<GamePage> {
   void onItemSelected(String value) async{
     setState(() {
       if(!value.contains("X") && !value.contains("O")){
-        validateWinner(context, currentPlayer,);
+        currentMoveCount +=1;
         moveList[int.parse(value)-1] = currentPlayer;
-        validateWinner(context, currentPlayer);
-        currentPlayer = currentPlayer == playerValue1 ? playerValue2 : playerValue1;
+        currentPlayer = currentPlayer == playerNameOne ? playerNameTwo : playerNameOne;
+        if(validateWinner(context, playerNameOne) != 0){
+          validateWinner(context, playerNameTwo);
+        }
       } else{
         dialogMoveInUsedMessage(context);
       }
@@ -110,7 +152,15 @@ class _GamePageState extends State<GamePage> {
 
   @override
   Widget build(BuildContext context) {
-
+    Widget leaderBoardView(){
+      return Column(
+        children: <Widget>[
+          Text(S.of(context).leaderBoardPlayer(playerNameOne, leaderBoardCountPlayerOne)),
+          Text(S.of(context).leaderBoardPlayer(playerNameTwo, leaderBoardCountPlayerTwo)),
+          Text(S.of(context).leaderBoardPlayerTie(leaderBoardCountPlayerTie)),
+        ],
+      );
+    }
     Widget gridViewSelection = Container(
       width: 600,
       height: 600,
@@ -145,6 +195,7 @@ class _GamePageState extends State<GamePage> {
       body: Center(
         child: Column(
           children: <Widget>[
+            leaderBoardView(),
             gridViewSelection
           ],
         ),
