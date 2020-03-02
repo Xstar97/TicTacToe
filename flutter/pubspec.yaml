@@ -28,7 +28,7 @@ dependencies:
   intl_translation: ^0.17.9
   intl: ^0.16.1
 
-
+  settings_ui: ^0.2.0
   rxdart: ^0.23.1
 
   # The following adds the Cupertino Icons font to your application.

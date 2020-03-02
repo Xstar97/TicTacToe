@@ -1,4 +1,4 @@
-package com.example.TicTacToe
+package com.xstar97.TicTacToe
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
