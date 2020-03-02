@@ -35,14 +35,15 @@ create a firebase web app in the console if you havent done so and and copy the 
 	
 However use this in production/uploading code to a open source database(ie github)
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.9.3/firebase-app.js"></script>
-<script src="/__/firebase/7.9.3/firebase-analytics.js"></script>
-<script src="/__/firebase/7.9.3/firebase-auth.js"></script>
-<script src="/__/firebase/7.9.3/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.9.3/firebase-app.js"></script>
+    <script src="/__/firebase/7.9.3/firebase-analytics.js"></script>
+    <script src="/__/firebase/7.9.3/firebase-auth.js"></script>
+    <script src="/__/firebase/7.9.3/firebase-firestore.js"></script>
 
-<!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>	
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>	
+
 
 This project is a starting point for a Flutter application.
 
