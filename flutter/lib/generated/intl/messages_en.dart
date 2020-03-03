@@ -19,14 +19,27 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
-  static m0(name, count) => "player ${name}: ${count}";
+  static m0(playerChar) => "Player: ${playerChar}!";
 
-  static m1(count) => "tie: ${count}";
+  static m1(name, count) => "player ${name}: ${count}";
+
+  static m2(count) => "tie: ${count}";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "leaderBoardPlayer" : m0,
-    "leaderBoardPlayerTie" : m1,
+    "gameActionContinue" : MessageLookupByLibrary.simpleMessage("Continue Game"),
+    "gameActionExit" : MessageLookupByLibrary.simpleMessage("Exit Game"),
+    "gameActionNew" : MessageLookupByLibrary.simpleMessage("New Game"),
+    "gameMessageOverMessageTie" : MessageLookupByLibrary.simpleMessage("Game ended in a tie!"),
+    "gameMessageOverMessageWinner" : m0,
+    "gameMessageOverTitle" : MessageLookupByLibrary.simpleMessage("Game Over!"),
+    "gameMessageOverTitleWinner" : MessageLookupByLibrary.simpleMessage("Winner!"),
+    "gameMessageReallyMessage" : MessageLookupByLibrary.simpleMessage("This option is unavailable :/"),
+    "gameMessageReallyTitle" : MessageLookupByLibrary.simpleMessage("Really?"),
+    "gameModeLocal" : MessageLookupByLibrary.simpleMessage("Local: offline"),
+    "gameModeMulti" : MessageLookupByLibrary.simpleMessage("multi-player"),
+    "leaderBoardPlayer" : m1,
+    "leaderBoardPlayerTie" : m2,
     "title" : MessageLookupByLibrary.simpleMessage("TicTacToe")
   };
 }

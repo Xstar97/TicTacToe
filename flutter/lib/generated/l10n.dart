@@ -55,6 +55,105 @@ class S {
       args: [count],
     );
   }
+
+  String get gameModeMulti {
+    return Intl.message(
+      'multi-player',
+      name: 'gameModeMulti',
+      desc: 'start a game online',
+      args: [],
+    );
+  }
+
+  String get gameModeLocal {
+    return Intl.message(
+      'Local: offline',
+      name: 'gameModeLocal',
+      desc: 'peer to peer game',
+      args: [],
+    );
+  }
+
+  String get gameActionExit {
+    return Intl.message(
+      'Exit Game',
+      name: 'gameActionExit',
+      desc: 'close game',
+      args: [],
+    );
+  }
+
+  String get gameMessageOverTitle {
+    return Intl.message(
+      'Game Over!',
+      name: 'gameMessageOverTitle',
+      desc: 'game finished',
+      args: [],
+    );
+  }
+
+  String get gameMessageReallyTitle {
+    return Intl.message(
+      'Really?',
+      name: 'gameMessageReallyTitle',
+      desc: 'seriously?',
+      args: [],
+    );
+  }
+
+  String get gameMessageReallyMessage {
+    return Intl.message(
+      'This option is unavailable :/',
+      name: 'gameMessageReallyMessage',
+      desc: 'cant be used',
+      args: [],
+    );
+  }
+
+  String get gameMessageOverMessageTie {
+    return Intl.message(
+      'Game ended in a tie!',
+      name: 'gameMessageOverMessageTie',
+      desc: 'game ended in a tie',
+      args: [],
+    );
+  }
+
+  String get gameMessageOverTitleWinner {
+    return Intl.message(
+      'Winner!',
+      name: 'gameMessageOverTitleWinner',
+      desc: 'game ended in a win',
+      args: [],
+    );
+  }
+
+  String gameMessageOverMessageWinner(dynamic playerChar) {
+    return Intl.message(
+      'Player: $playerChar!',
+      name: 'gameMessageOverMessageWinner',
+      desc: 'game ended in a win',
+      args: [playerChar],
+    );
+  }
+
+  String get gameActionNew {
+    return Intl.message(
+      'New Game',
+      name: 'gameActionNew',
+      desc: 'start new game',
+      args: [],
+    );
+  }
+
+  String get gameActionContinue {
+    return Intl.message(
+      'Continue Game',
+      name: 'gameActionContinue',
+      desc: 'continue where left off in the game',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

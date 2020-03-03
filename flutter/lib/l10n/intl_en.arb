@@ -21,5 +21,63 @@
     "placeholders": {
       "count": {}
     }
+  },
+  "gameModeMulti": "multi-player",
+  "@gameModeMulti": {
+    "description": "start a game online",
+    "type": "text"
+  },
+  "gameModeLocal": "Local: offline",
+  "@gameModeLocal": {
+    "description": "peer to peer game",
+    "type": "text"
+  },
+  "gameActionExit": "Exit Game",
+  "@gameActionExit": {
+    "description": "close game",
+    "type": "text"
+  },
+  "gameMessageOverTitle": "Game Over!",
+  "@gameMessageOverTitle": {
+    "description": "game finished",
+    "type": "text"
+  },
+  "gameMessageReallyTitle": "Really?",
+  "@gameMessageReallyTitle": {
+    "description": "seriously?",
+    "type": "text"
+  },
+  "gameMessageReallyMessage": "This option is unavailable :/",
+  "@gameMessageReallyMessage": {
+    "description": "cant be used",
+    "type": "text"
+  },
+  "gameMessageOverMessageTie": "Game ended in a tie!",
+  "@gameMessageOverMessageTie": {
+    "description": "game ended in a tie",
+    "type": "text"
+  },
+  "gameMessageOverTitleWinner": "Winner!",
+  "@gameMessageOverTitleWinner": {
+    "description": "game ended in a win",
+    "type": "text"
+  },
+  "gameMessageOverMessageWinner": "Player: {playerChar}!",
+  "@gameMessageOverMessageWinner": {
+    "description": "game ended in a win",
+    "type": "text",
+    "placeholders": {
+      "playerChar": {}
+    }
+  },
+  "gameActionNew": "New Game",
+  "@gameActionNew": {
+    "description": "start new game",
+    "type": "text"
+  },
+  "gameActionContinue": "Continue Game",
+  "@gameActionContinue": {
+    "description": "continue where left off in the game",
+    "type": "text"
   }
 }
